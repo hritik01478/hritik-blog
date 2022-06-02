@@ -3,10 +3,17 @@
 * {
   margin: 0px;
   padding: 1px;
-  font-weight: "Quicksand";
+  font-family: "Quicksand";
   color: white;
-  background-color: black;
+  background-color: rgb(27, 27, 27);
 }
+
+
+/* #ffa31a	(255,163,26)
+#808080	(128,128,128)
+#292929	(41,41,41)
+#1b1b1b	(27,27,27)
+#ffffff	(255,255,255) */
 
 /* Navbar Styling */
 
@@ -47,7 +54,7 @@
 }
 
 .blog-preview :hover {
-  box-shadow: 1px 3px 5px rgba(251, 249, 249, 0.2);
+  box-shadow: 1px 1px 3px rgba(255, 163, 26, 1);
 }
 
 .blog-preview h2 {
@@ -59,6 +66,14 @@
 
 .blog-preview p {
   font-size: 1rem;
+}
+
+.blog-preview button {
+  background-color: #ffa31a;
+  color: black;
+  border-radius: 7px;
+  padding: 3px 5px;
+  cursor: pointer;
 }
 
 /* Blog list  */
