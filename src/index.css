@@ -4,7 +4,8 @@
   margin: 0px;
   padding: 1px;
   font-weight: "Quicksand";
-  color: #333;
+  color: white;
+  background-color: black;
 }
 
 /* Navbar Styling */
@@ -18,8 +19,8 @@
 }
 
 .navbar h1 {
-  color: rgb(253, 62, 62);
-  font-size: 2rem;
+  color: white;
+  font-size: 2.2rem;
 }
 
 .navbar .links {
@@ -30,31 +31,42 @@
   text-decoration: none;
   margin-left: 1.2rem;
   padding: 0.5rem;
+  font-weight: 200;
 }
 
-.navbar a:hover {
+/* .navbar a:hover {
   color: rgb(245, 64, 64);
-}
+} */
 
 /* blog preview */
 
 .blog-preview {
   padding: 10px 16px;
   margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+  /* border-bottom: 1px solid #fafafa; */
 }
 
 .blog-preview :hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 3px 5px rgba(251, 249, 249, 0.2);
 }
 
 .blog-preview h2 {
   font-size: 1.5rem;
-  color: rgb(246, 62, 62);
+  color: #ffa31a;
   padding: 2px;
   margin-bottom: 8px;
 }
 
 .blog-preview p {
   font-size: 1rem;
+}
+
+/* Blog list  */
+/* .blog-list {
+  background-color: #292929;
+} */
+
+.blog-list h3 {
+  font-size: 2rem;
+  padding: 10px 16px;
 }
