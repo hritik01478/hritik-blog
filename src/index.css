@@ -111,6 +111,18 @@
   margin-bottom: 15px;
 }
 
+.blog-details div {
+  margin-bottom: 15px;
+}
+
+.blog-details button {
+  background-color: #ffa31a;
+  color: rgb(27, 27, 27);
+  padding: 4px 6px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
 /* New Blog  */
 .create {
   max-width: 400px;
