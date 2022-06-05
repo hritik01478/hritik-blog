@@ -25,7 +25,7 @@ const Create = () => {
     }
     return (
         <div className="create">
-            <h2>Add a new Blog</h2>
+            <h2 className="secondary">Add a new Blog</h2>
             <form onSubmit={handleSubmit}  >
                 <label>Blog Title:</label>
                 <input type="text" required value={title} onChange={(e) => setTitle(e.target.value)} />
@@ -34,7 +34,7 @@ const Create = () => {
                 <label>Blog Author:</label>
                 <select value={author} onChange={(e) => setAuthor(e.target.value)}>
                     <option value="hritik">Hritik</option>
-                    <option value="jatin">jatin</option>
+                    <option value="jatin">Jatin</option>
                 </select>
                 {!isPending && <button>Add Blog</button>}
                 {isPending && <button disabled>Adding Blog...</button>}

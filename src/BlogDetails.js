@@ -19,10 +19,10 @@ const BlogDetails = () => {
     return (
         <div className="blog-details">
             {error && <div>{error}</div>}
-            {isPending && <div>Loading...</div>}
+            {isPending && <div className="load">Loading...</div>}
             {blog && (<article>
-                <h2>{blog.title}</h2>
-                <p>written by {blog.author}</p>
+                <h2 className="secondary">{blog.title}</h2>
+                <p >written by {blog.author}</p>
                 <div>{blog.body}</div>
                 <button onClick={handleClick}>Delete</button>
             </article>)}

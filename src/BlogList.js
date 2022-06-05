@@ -4,12 +4,14 @@ const BlogList = ({ blogs, title }) => {
 
     return (
         <div className="blog-list">
-            <h3>{title}</h3>
+            <h2 className="secondary">{title}</h2>
             {blogs.map((blog) => (
                 <div className="blog-preview" key={blog.id}>
                     <Link to={`/blogs/${blog.id}`}>
-                        <h2>{blog.title}</h2>
-                        <p>written by {blog.author}</p>
+                        <div className="container">
+                            <h3 className='tertiary'>{blog.title}</h3>
+                            <p>written by {blog.author}</p>
+                        </div>
                     </Link>
                 </div>
             ))
